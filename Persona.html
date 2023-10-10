@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Perosna.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/editednamelogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <ion-icon name="close-outline" onclick="closemenu('closemenu')"></ion-icon>
+                </ul>
+                <ion-icon name="menu-outline" onclick="openmenu('openmenu')"></ion-icon>
+            </nav>
+            <div class="header-text">
+                <p>PAINTER</p>
+                <h1>Hi, I'm <span>Angelica<br/>Altis </span>From Philippines</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/SECOND (2).jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="stupid-love">Nang ma inlove ako sa'yo kala ko'y pag-ibig mo ay tunay
+                        Pero hindi nag-tagal lumabas din ang tunay na kulay
+                        Ang iyong kilay mapag-mataas at laging namimintas
+                        Pero sarili kong pera ang iyong winawaldas<br/><br/>
+                        Para kang sphinx ugali mo'y napaka sting
+                        Kung hiyain mo ko talagang nakaka shrink
+                        Girlie biddy bye bye don't tell a lie
+                        Bakit mo ako laging dini-deny<br/><br/>All the goods I've done wala man lang rekognition
+                        Mahilig kang manguleksyon binalewala aking atensyon
+                        'Yo anyway everyday iba't ibang guys ang iyong ka text
+                        And then one time nahuli kita na mayroon kang sex<br/><br/>Mas gugustuhin ko pa na mag pa krusifay
+                        Kesa harap harapan mo akong stupify
+                        So don't be mad so don't be sad
+                        Lahat ng kabulukan mo'y ilalahad<br/><br/>Stupid
+                        Love soft as an easy chair
+                        Stupid
+                        Love fresh as the morning air
+                        Stupid
+                        Love that is shared by two
+                        Stupid love
+                        I have found in you</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Iyakin</span><br/>Nagagalit kahit ng walang dahilan</li>
+                                <li><span>M@p4gmahl</span><br/>Bhebe q sau lhang</li>
+                                <li><span>XD</span><br/>XD ako dati</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Masaktan</span><br/>Masakit sa poso</li>
+                                <li><span>M@p4gmahl</span><br/>Bhebe q sau lhang</li>
+                                <li><span>XD</span><br/>XD ako dati</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Iyakin</span><br/>Nagagalit kahit ng walang dahilan</li>
+                                <li><span>M@p4gmahl</span><br/>Bhebe q sau lhang</li>
+                                <li><span>XD</span><br/>XD ako dati</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <ion-icon name="logo-octocat"></ion-icon>
+                    <h2 class="experiment1">Oil painting</h2>
+                    <p>Nang ma inlove ako sa'yo kala ko'y pag-ibig mo ay tunay
+                        Pero hindi nag-tagal lumabas din ang tunay</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <ion-icon name="logo-android"></ion-icon>
+                    <h2 class="experiment1">Action painting</h2>
+                    <p>Nang ma inlove ako sa'yo kala ko'y pag-ibig mo ay tunay
+                        Pero hindi nag-tagal lumabas din ang tunay</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <ion-icon name="logo-snapchat" clas="logo"></ion-icon>
+                    <h2 class="experiment1">Acrylic paint</h2>
+                    <p>Nang ma inlove ako sa'yo kala ko'y pag-ibig mo ay tunay
+                        Pero hindi nag-tagal lumabas din ang tunay</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--portfolio-->
+<div id="portfolio>">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/work1.jpg">
+                <div class="layer">
+                    <h3>Kabayo na malupit</h3>
+                    <p>Naisipan ko po na iguhit ito, dahil sabi ng marami may hawig daw po ito sa akin.</p>
+                    <a href="#"><ion-icon name="logo-reddit"></ion-icon></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/work2 (1).jpg">
+                <div class="layer">
+                    <h3>Batang naguguluhan</h3>
+                    <p>Naisipan ko po na iguhit ito, dahil sabi ng marami may hawig daw po ito sa akin.</p>
+                    <a href="#"><ion-icon name="sad-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/work3 (1).jpg">
+                <div class="layer">
+                    <h3>Dalagang papel</h3>
+                    <p>Naisipan ko po na iguhit ito, dahil sabi ng marami may hawig daw po ito sa akin.</p>
+                    <a href="#"><ion-icon name="logo-tux"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+    
+<!--contact-->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><ion-icon name="send-outline" class="contact-icon"></ion-icon>contact@Angelica.com</p>
+                <p><ion-icon name="call-outline"></ion-icon>09857638496</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100074898987717"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href=""><ion-icon name="mail-outline"></ion-icon></a>
+                </div>
+                <a href="/port.jpg" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>You need a little bit of rain to get a rainbow. <ion-icon name="heart-outline"></ion-icon></p>
+    </div>
+</div>
+
+    <script src="Persona.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
