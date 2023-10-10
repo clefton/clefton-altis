@@ -13,7 +13,7 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url(port.jpg);
+    background-image: url(/Transfer/images/port.jpg);
 }
 
 .container{
@@ -357,7 +357,7 @@ nav ion-icon{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(./port\ \(2\).jpg);
+        background-image: url(/Transfer/images/port\ \(2\).jpg);
     }
     .header-text{
         margin-top: 100%;
